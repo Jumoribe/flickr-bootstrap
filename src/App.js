@@ -57,6 +57,7 @@ export default class App extends React.Component {
                     <Card.Img
                       style={{ height: "180px", maxWidth: "300px" }}
                       src={this.imageURL(item)}
+                      alt={index}
                     />
                     <Card.Body style={{ backgroundColor: "#752eb0" }}>
                       <Card.Title style={{ color: "#ffffff" }}>
