@@ -67,8 +67,15 @@ export default class App extends React.Component {
                 );
               })
             ) : (
-              <div style={{ width: "47%", margin: "auto" }}>
-                <p>loading...</p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "13px"
+                }}
+              >
+                loading...
               </div>
             )}
           </div>
